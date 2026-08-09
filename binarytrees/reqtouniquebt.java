@@ -1,0 +1,11 @@
+class Solution {
+    public boolean uniqueBinaryTree(int a, int b) {
+        //your code goes here
+        if ((a == 2 && b != 2) || (b == 2 && a != 2))
+            return true;
+
+        return false;
+
+
+    }
+}
