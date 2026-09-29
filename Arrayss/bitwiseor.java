@@ -1,0 +1,13 @@
+import java.util.*;
+class Solution {
+    public List<Integer> orArray(List<Integer> A) {
+        // User code goes here
+        List<Integer> list=new ArrayList<>();
+        int a=0;
+        for(int i=0;i<A.size()-1;i++)
+        {   a=A.get(i) | A.get(i+1);
+            list.add(a);
+        }
+        return list;
+    }
+}
