@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public void shortestDistance(int[][] matrix) {
         int n=matrix.length;
